@@ -75,6 +75,11 @@ form {
   background: #7BA7AB;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+  transition: background-color 500ms, color 500ms;
+  &:hover{
+    background-color: #71999c;
+    color: #e8d58e;
+  }
 }
 .search-form button:before {
   content: '../';
@@ -87,10 +92,17 @@ form {
 }
 
 .load-more{
-  margin-top: 20px;
+  margin: 20px 0px;
   width: 200px;
   height: 50px;
   border: solid #9E9C9C;
   background: #7BA7AB;
   border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 500ms, color 500ms;
+  &:hover{
+    color: #6d6547;
+    background-color: #A3D0C3;
+    border: solid #71999c;
+  }
 }

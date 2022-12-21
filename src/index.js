@@ -3,10 +3,6 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import ApiSearch from './apiclass';
 
-
-const API_KEY = '32133259-eb605dfa2d96a82515a2bf160';
-const URL = `https://pixabay.com/api/`;
-
 const refs = {
     inputForm: document.querySelector('.search-form input'),
     searchBtn: document.querySelector('.search-form'),
