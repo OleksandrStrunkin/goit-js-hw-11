@@ -70,4 +70,6 @@ function imageMarkup(hits) {
 
 function clearBox() {
   refs.boxContent.innerHTML = '';
-}
+};
+
+console.log(`j`)
